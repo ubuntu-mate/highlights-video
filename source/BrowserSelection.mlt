@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1280" display_aspect_den="720" frame_rate_num="81990" frame_rate_den="2971" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:08.371">
+    <property name="length">00:00:08.407</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:08.371"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:01.196">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:00:30.257" out="00:00:31.453"/>
+    <track producer="producer7" in="00:01:15.255" out="00:01:16.451"/>
+    <transition id="transition0" out="00:00:01.196">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:01.196">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="00:00:00.000" out="00:01:39.026">
+    <property name="length">00:01:39.063</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T05:40:05</property>
+    <property name="shotcut:hash">4eff59a9637e457b07aa838eb0d2d96a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection-2020-06-07_22.32.26.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.652">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:01:21.452" out="00:01:22.104"/>
+    <track producer="producer3" in="00:01:26.923" out="00:01:27.576"/>
+    <transition id="transition2" out="00:00:00.652">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.652">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:06.305" out="00:00:07.863"/>
+    <entry producer="producer1" in="00:00:09.204" out="00:00:10.291"/>
+    <entry producer="producer2" in="00:00:12.175" out="00:00:12.791"/>
+    <entry producer="producer4" in="00:00:29.641" out="00:00:30.221"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:01.196"/>
+    <entry producer="producer7" in="00:01:20.256" out="00:01:21.416"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.652"/>
+    <entry producer="producer3" in="00:01:27.612" out="00:01:28.880"/>
+  </playlist>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.971">
+    <property name="length">03:59:60.007</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/BrowserSelectionsOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-08T06:16:03</property>
+    <property name="shotcut:caption">BrowserSelectionsOverlay.png</property>
+    <property name="shotcut:hash">680cca00bdd04dd5ce0696ae12657070</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/BrowserSelectionsOverlay.png</property>
+    <filter id="filter0" out="00:00:08.371">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:07.392=1;00:00:08.371=0</property>
+      <property name="shotcut:animOut">00:00:01.015</property>
+    </filter>
+    <filter id="filter1" out="00:00:08.371">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:00.978=1</property>
+      <property name="shotcut:animIn">00:00:01.015</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:08.371"/>
+  </playlist>
+  <tractor id="tractor2" title="Shotcut version 20.04.12" global_feed="1" in="00:00:00.000" out="00:00:08.371">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">1.64469</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

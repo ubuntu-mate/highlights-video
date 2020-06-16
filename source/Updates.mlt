@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1280" display_aspect_den="720" frame_rate_num="129405" frame_rate_den="4313" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:33.063">
+    <property name="length">00:00:33.096</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:33.063"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.233">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:14.465" out="00:00:14.698"/>
+    <track producer="producer2" in="00:01:10.299" out="00:01:10.532"/>
+    <transition id="transition0" out="00:00:00.233">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.233">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.233">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:01:12.899" out="00:01:13.132"/>
+    <track producer="producer5" in="00:01:14.732" out="00:01:14.965"/>
+    <transition id="transition2" out="00:00:00.233">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.233">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:01:16.465" out="00:01:16.565"/>
+    <track producer="producer8" in="00:01:55.660" out="00:01:55.760"/>
+    <transition id="transition4" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer9" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer10" in="00:02:00.133" out="00:02:00.233"/>
+    <track producer="producer11" in="00:02:43.862" out="00:02:43.962"/>
+    <transition id="transition6" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer12" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor5" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer15" in="00:03:36.762" out="00:03:36.862"/>
+    <track producer="producer16" in="00:03:55.594" out="00:03:55.694"/>
+    <transition id="transition10" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition11" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer17" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:00:00.167">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer17" in="00:03:57.527" out="00:03:57.693"/>
+    <track producer="producer18" in="00:04:06.766" out="00:04:06.933"/>
+    <transition id="transition12" out="00:00:00.167">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition13" out="00:00:00.167">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer19" in="00:00:00.000" out="00:04:47.528">
+    <property name="length">00:04:47.561</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T05:25:48</property>
+    <property name="shotcut:hash">c50519daecdc04a3edce879dc9578db6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Improvements-2020-06-13_22.19.49.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor7" global_feed="1" in="00:00:00.000" out="00:00:00.300">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer18" in="00:04:09.299" out="00:04:09.599"/>
+    <track producer="producer19" in="00:04:13.865" out="00:04:14.165"/>
+    <transition id="transition14" out="00:00:00.300">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition15" out="00:00:00.300">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:11.765" out="00:00:14.432"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.233"/>
+    <entry producer="producer3" in="00:01:11.832" out="00:01:12.865"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.233"/>
+    <entry producer="producer6" in="00:01:14.998" out="00:01:16.431"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer9" in="00:01:55.794" out="00:02:00.100"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer12" in="00:02:43.995" out="00:02:48.594"/>
+    <blank length="00:00:11.799"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer17" in="00:03:56.560" out="00:03:57.493"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:00.167"/>
+    <entry producer="producer18" in="00:04:06.966" out="00:04:09.266"/>
+    <entry producer="tractor7" in="00:00:00.000" out="00:00:00.300"/>
+    <entry producer="producer19" in="00:04:14.198" out="00:04:16.498"/>
+  </playlist>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/UMGuideOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:39:47</property>
+    <property name="shotcut:caption">UMGuideOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/UMGuideOverlay.png</property>
+    <property name="shotcut:hash">012dae3dcb70b47b70c7bd62d1a77d38</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:05.866">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter1" out="00:00:05.866">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:04.866=1;00:00:05.866=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/UMGuideOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:39:47</property>
+    <property name="shotcut:caption">UMGuideOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/UMGuideOverlay.png</property>
+    <property name="shotcut:hash">012dae3dcb70b47b70c7bd62d1a77d38</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:05.866">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter3" out="00:00:05.866">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:04.866=1;00:00:05.866=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/HiDPIOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:50:49</property>
+    <property name="shotcut:caption">HiDPIOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/HiDPIOverlay.png</property>
+    <property name="shotcut:hash">8c750242184572290345ff600f294848</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:04.566">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter5" out="00:00:04.566">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:03.566=1;00:00:04.566=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <tractor id="tractor8" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer21" in="00:00:05.766" out="00:00:05.866"/>
+    <track producer="producer22" in="00:00:00.000" out="00:00:00.100"/>
+    <transition id="transition16" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition17" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/HiDPIOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:50:49</property>
+    <property name="shotcut:caption">HiDPIOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/HiDPIOverlay.png</property>
+    <property name="shotcut:hash">8c750242184572290345ff600f294848</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" out="00:00:04.566">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter7" out="00:00:04.566">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:03.566=1;00:00:04.566=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/HiDPIOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:50:49</property>
+    <property name="shotcut:caption">HiDPIOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/HiDPIOverlay.png</property>
+    <property name="shotcut:hash">8c750242184572290345ff600f294848</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter8" out="00:00:04.566">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter9" out="00:00:04.566">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:03.566=1;00:00:04.566=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/SwitcherOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:57:26</property>
+    <property name="shotcut:caption">SwitcherOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/SwitcherOverlay.png</property>
+    <property name="shotcut:hash">70f057060c94c2a6976c8dc76f92271a</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter10" out="00:00:04.733">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter11" out="00:00:04.733">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:03.733=1;00:00:04.733=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <tractor id="tractor9" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer24" in="00:00:04.466" out="00:00:04.566"/>
+    <track producer="producer25" in="00:00:00.000" out="00:00:00.100"/>
+    <transition id="transition18" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition19" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/SwitcherOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:57:26</property>
+    <property name="shotcut:caption">SwitcherOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/SwitcherOverlay.png</property>
+    <property name="shotcut:hash">70f057060c94c2a6976c8dc76f92271a</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter12" out="00:00:04.733">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter13" out="00:00:04.733">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:03.733=1;00:00:04.733=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/PreviewOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T05:54:01</property>
+    <property name="shotcut:caption">PreviewOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/PreviewOverlay.png</property>
+    <property name="shotcut:hash">8419ae166671d405e11f3d0995bb0690</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter14" out="00:00:11.899">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter15" out="00:00:11.899">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:10.899=1;00:00:11.899=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:60:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/KeyBindingsOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T06:03:42</property>
+    <property name="shotcut:caption">KeyBindingsOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/KeyBindingsOverlay.png</property>
+    <property name="shotcut:hash">5919f386152713d5d40203658e596238</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter16" out="00:00:06.266">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:05.266=1;00:00:06.266=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+    <filter id="filter17" out="00:00:06.266">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+  </producer>
+  <tractor id="tractor11" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer27" in="00:00:11.799" out="00:00:11.899"/>
+    <track producer="producer28" in="00:00:00.000" out="00:00:00.100"/>
+    <transition id="transition22" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition23" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:05.733"/>
+    <entry producer="tractor8" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer23" in="00:00:00.133" out="00:00:04.433"/>
+    <entry producer="tractor9" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:04.599"/>
+    <blank length="00:00:11.799"/>
+    <entry producer="tractor11" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer28" in="00:00:00.133" out="00:00:06.266"/>
+  </playlist>
+  <tractor id="tractor12" title="Shotcut version 20.04.12" global_feed="1" in="00:00:00.000" out="00:00:33.063">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">2.54999</property>
+    <property name="shotcut:trackHeight">41</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition24">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition25">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition26">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition27">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

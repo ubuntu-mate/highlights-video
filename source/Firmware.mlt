@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1280" display_aspect_den="720" frame_rate_num="71820" frame_rate_den="2393" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:05.364">
+    <property name="length">00:00:05.398</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:05.364"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:01:19.758">
+    <property name="length">00:01:19.792</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Firmware-2020-06-10_08.55.52.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-10T15:58:18</property>
+    <property name="shotcut:hash">ca8d5bb87013eb9b40d7dca6dc4aa07c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Firmware-2020-06-10_08.55.52.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:01:19.758">
+    <property name="length">00:01:19.792</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/rough cuts/Firmware-2020-06-10_08.55.52.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-10T15:58:18</property>
+    <property name="shotcut:hash">ca8d5bb87013eb9b40d7dca6dc4aa07c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Firmware-2020-06-10_08.55.52.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:60.008">
+    <property name="length">04:00:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/FirmwareWindow.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-10T16:07:34</property>
+    <property name="shotcut:caption">FirmwareWindow.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/FirmwareWindow.png</property>
+    <property name="shotcut:hash">9711187395d85a48f5153150d89d80f1</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:04.631" out="00:00:06.497"/>
+    <entry producer="producer1" in="00:00:15.827" out="00:00:18.092"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:01.166"/>
+  </playlist>
+  <producer id="producer3" in="00:00:00.000" out="03:59:60.008">
+    <property name="length">04:00:00.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/FirmwareOverlay.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-10T15:24:45</property>
+    <property name="shotcut:caption">FirmwareOverlay.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/FirmwareOverlay.png</property>
+    <property name="shotcut:hash">8a626e8f2117beba0b015a656d4a4daf</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:05.364">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">00:00:01.033</property>
+    </filter>
+    <filter id="filter1" out="00:00:05.364">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:04.365=1;00:00:05.364=0</property>
+      <property name="shotcut:animOut">00:00:01.033</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:05.364"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 20.04.12" global_feed="1" in="00:00:00.000" out="00:00:05.364">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">4.5843</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin" title="Shotcut version 20.04.12">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:02:45.120">
+    <property name="length">00:02:45.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:02:45.120"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:00:05.040">
+    <property name="length">00:00:05.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Intro.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T16:49:00</property>
+    <property name="shotcut:hash">5b52856d7b6ed187762e23c3064b27a7</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Intro.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:05.040">
+    <property name="length">00:00:05.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Intro.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-08T16:49:00</property>
+    <property name="shotcut:hash">5b52856d7b6ed187762e23c3064b27a7</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Intro.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:00:06.760">
+    <property name="length">00:00:06.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/MajorApplications.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-12T22:21:53</property>
+    <property name="shotcut:hash">af0a7a4dc3c264f887fac60eb47aae04</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">MajorApplications.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:04.920" out="00:00:05.040"/>
+    <track producer="producer2" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition0" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" in="00:00:00.000" out="00:00:06.760">
+    <property name="length">00:00:06.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/MajorApplications.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-12T22:21:53</property>
+    <property name="shotcut:hash">af0a7a4dc3c264f887fac60eb47aae04</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">MajorApplications.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:00:06.760">
+    <property name="length">00:00:06.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/MajorApplications.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-12T22:21:53</property>
+    <property name="shotcut:hash">af0a7a4dc3c264f887fac60eb47aae04</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">MajorApplications.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:00:08.400">
+    <property name="length">00:00:08.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/BrowserSelection.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:54:21</property>
+    <property name="shotcut:hash">03ec0efd21782b32ff6b977f61167ec6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:06.640" out="00:00:06.760"/>
+    <track producer="producer5" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition2" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" in="00:00:00.000" out="00:00:08.400">
+    <property name="length">00:00:08.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/BrowserSelection.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:54:21</property>
+    <property name="shotcut:hash">03ec0efd21782b32ff6b977f61167ec6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:00:08.400">
+    <property name="length">00:00:08.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/BrowserSelection.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:54:21</property>
+    <property name="shotcut:hash">03ec0efd21782b32ff6b977f61167ec6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">BrowserSelection.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:00:11.560">
+    <property name="length">00:00:11.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/ColorSelection.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:57:23</property>
+    <property name="shotcut:hash">ec8ad5ae708ecf902213c3ef29fac60a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ColorSelection.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:00:08.280" out="00:00:08.400"/>
+    <track producer="producer8" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition4" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer9" in="00:00:00.000" out="00:00:11.560">
+    <property name="length">00:00:11.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/ColorSelection.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:57:23</property>
+    <property name="shotcut:hash">ec8ad5ae708ecf902213c3ef29fac60a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ColorSelection.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:00:11.560">
+    <property name="length">00:00:11.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/ColorSelection.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:57:23</property>
+    <property name="shotcut:hash">ec8ad5ae708ecf902213c3ef29fac60a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ColorSelection.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="00:00:14.200">
+    <property name="length">00:00:14.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Notifications.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:11:04</property>
+    <property name="shotcut:hash">c637f3b1eeb1fde57c4641b8d46020da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Notifications.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer10" in="00:00:11.440" out="00:00:11.560"/>
+    <track producer="producer11" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition6" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer12" in="00:00:00.000" out="00:00:14.200">
+    <property name="length">00:00:14.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Notifications.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:11:04</property>
+    <property name="shotcut:hash">c637f3b1eeb1fde57c4641b8d46020da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Notifications.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="00:00:14.200">
+    <property name="length">00:00:14.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Notifications.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:11:04</property>
+    <property name="shotcut:hash">c637f3b1eeb1fde57c4641b8d46020da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Notifications.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="00:00:05.400">
+    <property name="length">00:00:05.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Firmware.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:05:04</property>
+    <property name="shotcut:hash">04bc7c3dbf7ed462ecfe95a3db76016d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Firmware.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer13" in="00:00:14.080" out="00:00:14.200"/>
+    <track producer="producer14" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition8" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer15" in="00:00:00.000" out="00:00:05.400">
+    <property name="length">00:00:05.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Firmware.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:05:04</property>
+    <property name="shotcut:hash">04bc7c3dbf7ed462ecfe95a3db76016d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Firmware.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="00:00:05.400">
+    <property name="length">00:00:05.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Firmware.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:05:04</property>
+    <property name="shotcut:hash">04bc7c3dbf7ed462ecfe95a3db76016d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Firmware.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="00:00:11.160">
+    <property name="length">00:00:11.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Evolution.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:01:56</property>
+    <property name="shotcut:hash">59af590842b7ebf3a480ba2ec78e4562</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Evolution.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor5" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer16" in="00:00:05.280" out="00:00:05.400"/>
+    <track producer="producer17" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition10" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition11" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer18" in="00:00:00.000" out="00:00:11.160">
+    <property name="length">00:00:11.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Evolution.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:01:56</property>
+    <property name="shotcut:hash">59af590842b7ebf3a480ba2ec78e4562</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Evolution.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="00:00:11.160">
+    <property name="length">00:00:11.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Evolution.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T15:01:56</property>
+    <property name="shotcut:hash">59af590842b7ebf3a480ba2ec78e4562</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Evolution.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="00:00:18.880">
+    <property name="length">00:00:18.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Magnus.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-12T21:31:24</property>
+    <property name="shotcut:hash">035cc30b1980fdc929e8c8547a490a3c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Magnus.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer19" in="00:00:11.040" out="00:00:11.160"/>
+    <track producer="producer20" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition12" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition13" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer21" in="00:00:00.000" out="00:00:18.880">
+    <property name="length">00:00:18.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Magnus.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-12T21:31:24</property>
+    <property name="shotcut:hash">035cc30b1980fdc929e8c8547a490a3c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Magnus.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="00:00:18.880">
+    <property name="length">00:00:18.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Magnus.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-12T21:31:24</property>
+    <property name="shotcut:hash">035cc30b1980fdc929e8c8547a490a3c</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Magnus.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="00:00:33.080">
+    <property name="length">00:00:33.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Updates.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-15T14:58:32</property>
+    <property name="shotcut:hash">7cf67b3c0372d73e1a8d222434037d38</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Updates.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor7" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer22" in="00:00:18.600" out="00:00:18.720"/>
+    <track producer="producer23" in="00:00:00.000" out="00:00:00.120"/>
+    <transition id="transition14" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition15" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer24" in="00:00:00.000" out="00:01:08.960">
+    <property name="length">00:01:09.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/PreviewAndKeys.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-15T14:55:14</property>
+    <property name="shotcut:hash">54827d11586cdad2d3b2de810e85acfa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PreviewAndKeys.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor8" global_feed="1" in="00:00:00.000" out="00:00:00.120">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer23" in="00:00:14.840" out="00:00:14.960"/>
+    <track producer="producer24" in="00:00:00.160" out="00:00:00.280"/>
+    <transition id="transition16" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition17" out="00:00:00.120">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer25" in="00:00:00.000" out="00:01:08.960">
+    <property name="length">00:01:09.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/PreviewAndKeys.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-15T14:55:14</property>
+    <property name="shotcut:hash">54827d11586cdad2d3b2de810e85acfa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PreviewAndKeys.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor9" global_feed="1" in="00:00:00.000" out="00:00:00.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer24" in="00:00:25.920" out="00:00:26.280"/>
+    <track producer="producer25" in="00:00:35.440" out="00:00:35.800"/>
+    <transition id="transition18" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition19" out="00:00:00.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer26" in="00:00:00.000" out="00:01:08.960">
+    <property name="length">00:01:09.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/PreviewAndKeys.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-15T14:55:14</property>
+    <property name="shotcut:hash">54827d11586cdad2d3b2de810e85acfa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PreviewAndKeys.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="00:01:08.960">
+    <property name="length">00:01:09.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/PreviewAndKeys.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-15T14:55:14</property>
+    <property name="shotcut:hash">54827d11586cdad2d3b2de810e85acfa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PreviewAndKeys.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="00:00:06.320">
+    <property name="length">00:00:06.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/clips/Credits.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2020-06-14T14:47:01</property>
+    <property name="shotcut:hash">6dae0cdba8030098cee93754acb65cc3</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Credits.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:06.320">
+      <property name="start">1</property>
+      <property name="level">00:00:05.360=1;00:00:06.320=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <tractor id="tractor10" global_feed="1" in="00:00:00.000" out="00:00:00.240">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer27" in="00:01:08.720" out="00:01:08.960"/>
+    <track producer="producer28" in="00:00:00.000" out="00:00:00.240"/>
+    <transition id="transition20" out="00:00:00.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition21" out="00:00:00.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/Credits.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2020-06-14T06:26:56</property>
+    <property name="shotcut:caption">Credits.png</property>
+    <property name="shotcut:detail">/home/lebushey/Videos/20.04/source/Credits.png</property>
+    <property name="shotcut:hash">d78a0293b7d9395cdf0b9a7fed83c285</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" in="00:00:-0.280" out="00:00:09.320">
+      <property name="start">1</property>
+      <property name="level">00:00:08.640=1;00:00:09.600=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:04.880"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer3" in="00:00:00.160" out="00:00:06.600"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer6" in="00:00:00.160" out="00:00:08.240"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer9" in="00:00:00.160" out="00:00:11.400"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer12" in="00:00:00.160" out="00:00:14.040"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer15" in="00:00:00.160" out="00:00:05.240"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer18" in="00:00:00.160" out="00:00:11.000"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer21" in="00:00:00.160" out="00:00:18.560"/>
+    <entry producer="tractor7" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:14.800"/>
+    <entry producer="tractor8" in="00:00:00.000" out="00:00:00.120"/>
+    <entry producer="producer24" in="00:00:00.320" out="00:00:25.880"/>
+    <entry producer="tractor9" in="00:00:00.000" out="00:00:00.360"/>
+    <entry producer="producer25" in="00:00:35.840" out="00:00:40.520"/>
+    <entry producer="producer26" in="00:00:41.680" out="00:01:08.680"/>
+    <entry producer="tractor10" in="00:00:00.000" out="00:00:00.240"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:09.320"/>
+  </playlist>
+  <producer id="producer30" in="00:00:00.000" out="00:02:45.120">
+    <property name="length">00:02:45.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/20.04/source/Walking_the_Dog_long.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2020-06-15T16:09:41</property>
+    <property name="shotcut:hash">7697c375d3b9ad860645eb8768ca61bc</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Walking_the_Dog_long.mp3</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer30" in="00:00:00.000" out="00:02:45.120"/>
+  </playlist>
+  <tractor id="tractor11" title="Shotcut version 20.04.12" global_feed="1" in="00:00:00.000" out="00:02:45.120">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">1.79687</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition22">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition23">
+      <property name="a_track">1</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition24">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
