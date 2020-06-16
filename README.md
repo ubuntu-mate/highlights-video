@@ -1,4 +1,4 @@
-# highlights video
+# highlights-video
 
 Video highlights to introduce Ubuntu MATE
 
