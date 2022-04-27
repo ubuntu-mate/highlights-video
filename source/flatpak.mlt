@@ -1,0 +1,294 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.4.0" title="Shotcut version 22.01.30" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:20.067">
+    <property name="length">00:01:20.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:20.067"/>
+  </playlist>
+  <chain id="chain0" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:42.167" out="00:01:03.367">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </chain>
+  <chain id="chain1" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain6" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain7" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain8" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain9" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain10" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:03:23.733">
+    <property name="length">00:03:23.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">flatpak - Converted.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">2c9d645b567f728827a489bd6e7ae114</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">flatpak - Converted.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="00:00:42.167" out="00:01:03.367"/>
+    <entry producer="chain1" in="00:01:18.067" out="00:01:33.500"/>
+    <entry producer="chain2" in="00:01:38.633" out="00:01:42.200"/>
+    <entry producer="chain3" in="00:01:44.100" out="00:01:52.367"/>
+    <entry producer="chain4" in="00:01:58.167" out="00:02:01.900"/>
+    <entry producer="chain5" in="00:02:44.100" out="00:02:54.800"/>
+    <entry producer="chain6" in="00:03:04.567" out="00:03:08.267"/>
+    <entry producer="chain7" in="00:03:10.700" out="00:03:22.200"/>
+    <entry producer="chain8" in="00:03:22.233" out="00:03:22.633"/>
+    <entry producer="chain9" in="00:03:22.233" out="00:03:22.633"/>
+    <entry producer="chain10" in="00:03:22.233" out="00:03:22.633"/>
+    <entry producer="chain11" in="00:03:22.233" out="00:03:22.633"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/22.04/source/Flatpak.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-04-26T18:41:02</property>
+    <property name="shotcut:caption">Flatpak.png</property>
+    <property name="shotcut:hash">4d82300a77cf886d4e624c7ef6c94abb</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" out="00:01:18.333">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.967">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/lebushey/Videos/22.04/source/Flatpak.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-04-26T18:41:02</property>
+    <property name="shotcut:caption">Flatpak.png</property>
+    <property name="shotcut:hash">4d82300a77cf886d4e624c7ef6c94abb</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:01:18.333"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:01.700"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.01.30" in="00:00:00.000" out="00:01:20.067">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">0.687327</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
