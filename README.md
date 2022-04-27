@@ -25,8 +25,6 @@ The text in the video is only in English at the moment. The audio is music only.
 
 Ensure that you have the software listed above (or equivalent). 
 
-After the 20.04 files, each new intro has its own folder with a name that reflects the release number.
-
 The "rough cuts" folder contains the original raw recordings from the virtual environment with no audio.
 The "source" folder contains the **Shotcut** (.mlt) files with edits and filters used to create the video clips. 
 The "clips" folder contains the video and audio clips and graphics files that are assembled in the **UM22.04Intro.mlt** file. The **GIMP** (.xcf) file used for creating the graphic images is also contained in this folder.
